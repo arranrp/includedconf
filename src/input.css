@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+.large_logo {
+  background-image: url(../images/svg/large_logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px auto;
+}
+
+
+.skewed_multi {
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+  height: 100vh;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  background-image: url(../images/svg/pattern_multicolour.svg);
+  background-repeat: repeat;
+  background-size: 100px auto;
+}
+
+@media (min-width: 1024px) {
+  .skewed_multi {
+    width: 100vw;
+    height: 250px;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
+  }
+}
