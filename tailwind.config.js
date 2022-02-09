@@ -1,6 +1,6 @@
 module.exports = {
   content: [
-    './index.html',
+    'dist/**/*.html',
   ],
   theme: {
     extend: {},

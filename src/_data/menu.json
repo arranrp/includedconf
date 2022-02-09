@@ -1,0 +1,14 @@
+{
+    "banana": {
+        "name": "banana",
+        "url": "/banana"
+    },
+    "apple": {
+        "name": "apple",
+        "url": "/apple"
+    },
+    "strawberry": {
+        "name": "strawberry",
+        "url": "/strawberry"
+    }
+}
