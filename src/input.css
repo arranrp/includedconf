@@ -17,22 +17,60 @@ body {
 
 .skewed_multi {
   position: absolute;
-  z-index: -1;
+  background-image: url(../images/svg/pattern_multicolour.svg);
+  background-repeat: repeat;
+  background-size: 100px auto;
+}
+
+.header_decoration {
+  z-index: -4;
   top: 0px;
   bottom: 0px;
   right: 0px;
   width: 100px;
   height: 100vh;
   clip-path: polygon(0 0, 100% 0, 100% 100%);
-  background-image: url(../images/svg/pattern_multicolour.svg);
-  background-repeat: repeat;
-  background-size: 100px auto;
 }
 
 @media (min-width: 1024px) {
-  .skewed_multi {
+  .header_decoration {
+    width: 100vw;
+    height: 150px;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
+  }
+}
+
+footer {
+  margin-top: 3000px;
+}
+
+.footer_decoration {
+  z-index: -3;
+  bottom: 2rem;
+  left: 0px;
+  right: 0;
+  height: 150px;
+  clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%);
+}
+
+/* @media (min-width: 1024px) {
+  .footer_decoration {
     width: 100vw;
     height: 250px;
     clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
   }
+} */
+
+.footer_character {
+  position: absolute;
+  z-index: -2;
+  bottom: calc(2rem - 6px);
+  left: 0px;
+  right: 0;
+  height: 300px;
+  position: absolute;
+  background-image: url(../images/mega-phone.png);
+  background-repeat: no-repeat;
+  background-size: 300px auto;
+  background-position: 200px bottom;
 }
