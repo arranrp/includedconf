@@ -42,16 +42,17 @@
 </head>
 
 <body>
-  <div class="header_decoration skewed_multi"></div>
   <div class="page_wrapper">
   {% include 'header.njk' %}
-  
-  <main>
+  <div class="main">
+    <div class="header_decoration"></div>
+    <div class="content_wrapper">
   {{ content | safe }}
 
 
   {% include 'subscribe.njk' %}
-  </main>
+    </div>
+  </div>
 
   {% include 'footer.njk' %}
   </div>
