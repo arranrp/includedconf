@@ -6,6 +6,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       'giga': ['"Lexend Giga"', 'sans-serif'],
+      'deca': ['"Lexend Deca"', 'sans-serif'],
       'welcome': ['"Source Serif Pro"', 'serif'],
     },
     fontSize: {
