@@ -24,6 +24,21 @@ p {
   max-width: 65ch;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 2rem 0 0 0;
+}
+
+main ul {
+  font-size: 3rem;
+  list-style: initial;
+}
+
+main ul li {
+  display: list-item;
+}
+
 .page_wrapper {
   min-height: 100%;
 	display: grid;
