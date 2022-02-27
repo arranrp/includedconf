@@ -17,7 +17,7 @@ html, body {
 }
 
 main {
-  /* background-color: beige; */
+  
 }
 
 p {
@@ -41,7 +41,7 @@ h2 {
 }
 
 main ul {
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 1rem 2rem 1rem 2rem;
   margin: initial;
   font-weight: 400;
   font-size: 1.2rem;
