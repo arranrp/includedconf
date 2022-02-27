@@ -16,6 +16,10 @@ html, body {
   color: black;  
 }
 
+main {
+  /* background-color: beige; */
+}
+
 p {
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 300;
@@ -30,13 +34,45 @@ h2 {
   padding: 2rem 0 0 0;
 }
 
+.intro p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
 main ul {
-  font-size: 3rem;
-  list-style: initial;
+  padding: 1rem 2rem 2rem 2rem;
+  margin: initial;
+  font-weight: 400;
+  font-size: 1.2rem;
 }
 
 main ul li {
   display: list-item;
+  list-style: initial;
+  padding: initial;
+  margin: 0 0 0.2rem 0;
+}
+
+main ul li::marker {
+  transform: rotate(45deg);
+  transform:scale(150%);
+}
+
+main ul li:nth-of-type(1n) {
+  list-style-image: url(../images/svg/triangle.svg);
+}
+
+main ul li:nth-of-type(2n) {
+  list-style-image: url(../images/svg/square.svg);
+}
+
+main ul li:nth-of-type(3n) {
+  list-style-image: url(../images/svg/hour_glass.svg);
+}
+
+main ul li:nth-of-type(4n) {
+  list-style-image: url(../images/svg/ring.svg);
 }
 
 .page_wrapper {
