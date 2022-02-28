@@ -38,6 +38,11 @@ h2 {
   padding: 2rem 0 0 0;
 }
 
+.formkit-field label {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
 .intro p {
   font-weight: 400;
   font-size: 1.2rem;
@@ -111,6 +116,7 @@ main ul li:nth-of-type(4n) {
   right: 0;
   z-index: -1;
   width: 100vw;
+  max-width: 100%;
   height: 16rem;
   clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
   background-image: url(../images/svg/pattern_multicolour.svg);
@@ -132,7 +138,7 @@ main ul li:nth-of-type(4n) {
 .megaphone {
   left: 0;
   bottom: 0;
-  padding: 200px 0 0 10vw;
+  padding: 50px 0 0 10vw;
   /* transform: translate(-60%, 3.2%); */
   position: absolute;
   z-index: 5;
